@@ -28,13 +28,6 @@ body {
     background-color:rgb(148, 187, 233, .3) !important ;
 }
 
-#secondary_body {
-  background: rgb(174,182,238);
-  background: radial-gradient(circle, rgba(174,182,238, .3) 0%, rgba(148,187,233, .3) 100%);
-	background-size: 400% 400%;
-	animation: gradient 30s ease infinite;
-	height: 100vh;
-}
 
 @keyframes gradient {
 	0% {
