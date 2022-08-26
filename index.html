@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content>
+        <meta name="author" content="Cozzi Valentina">
+        <title>Portraits en nuances</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>  
+        <script src="https://kit.fontawesome.com/4968a3075c.js" crossorigin="anonymous"></script>
+        <!--Favicon-->   
+        <link rel="shortcut icon" type="image/jpg" href="imgs/monna_black.png"/>
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img id="monna" src="imgs/monna_white.png" alt="" width="45" height="44" onclick="transitionToPage('index.html')">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a id="nav_a" class="nav-link text-white active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a id="nav_a" class="nav-link text-white active" href="#about">About</a>
+                  </li> 
+                    <li class="nav-item">
+                        <a id="nav_a" class="nav-link text-white active" href="#project">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav_a" class="nav-link text-white active"  href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav_a" class="nav-link text-white active"  href="#credit">Credits</a>
+                    </li>       
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <!--End of Navbar-->
+        <!--Initial landing page-->
+        <section class="landing_page">
+            <div class="video_wrap">
+                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                    <source src="videos/video (1).mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="caption">
+              <h1 class="text-center" id="demo"> Portraits en nuances</h1>
+                <h3>A dive into modern art's portraits and their palettes</h3>
+                <a href="storytelling.html" class="btn btn-outline-light btn-lg">Begin</a> 
+            </div>
+        </section>
+        <!--End of landing page-->
+        <!--Main section and carousel-->
+        <br>
+        <section id="about" class="p-5">
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+              <h3 id="about">Learn <a id="evidenziatore" href="storytelling.html">more</a> about the colour pattern in modern art's portraits and self-portraits</h3>
+              <p>Check out our research questions <i class="arrow right"></i></p>
+            </div>
+            <div class="col-md">
+              <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imgs/portraits.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Portraits and self-portraits</h5>
+                      <p>What and how many portraits and self portaits can be found in each artistic period? </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/multi_colour.jpg" class="d-block w-100" alt="..." href="">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Colour pattern</h5>
+                      <p>How do colours change through time? </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/world_map_1.jpg" class="d-block w-100" alt="..." href="">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Geographical distribution</h5>
+                      <p>How are the portraits spatially distributed?</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            </div>
+        </div>
+        </section>
+        <!--Project explanation-->
+        <section id="project" class="p-5">
+          <div class="container-fluid">
+            <div class="col-md">
+              <h2 class="text-center" id="project">The Project</h2>
+                <p>The project has been carried out for the exam of <a id="special" href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/443749">Electronic Publishing and Digital Storytelling</a> held by Professor Marilena Daquino for the a.a. 2021-2022, within the <a id="special" href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge">Digital Humanities and Digital Knowledge</a> master's degree at the University of Bologna.</p>
+                <p>The general aim of the project is to investigate topics related to the field of art history, exploiting linked open data as much as possible and making use of the information available on <a id="special" href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>.</p>
+                <p>The focus of the project is the genre of portraiture (portraits and self-portraits) in a period span of 70 years: from 1870 to 1950. In particular, our study focuses on the role that color plays in the representation of humans and the change in the usage of colour in the different modern art's movements.</p>
+            </div>
+          </div>
+        </section>
+        <!--Team's cards-->
+        <section id="team" class="p-5">
+          <div class="container-fluid">
+            <h2 class="text-center" id="team">The Team</h2>
+            <div id ="figurine" class="row g-4 justify-content-center">
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                  <div class="card-body text-center">
+                    <img src="imgs/vale.jpg" class="img-fluid">
+                    <h4 class="card-title mb-3">Valentina Cozzi</h4>
+                    <p class="card-text">Master's Degree student, DHDK @UniBo. Graduated in DAMS.</p>
+                      <ul>
+                        <li>WEB DEVELOPMENT</li>
+                        <li>STORYTELLING</li>
+                        <li>COMMUNICATION</li>
+                      </ul>
+                    <a href="https://github.com/valentinacozzi" target="_blank" class="fa-brands fa-github"></a>
+                    <a href="https://www.facebook.com/vale.p.cozzi/" target="_blank" class="fa-brands fa-facebook-f"></a>
+                    <a href="https://www.instagram.com/valentinacozzi_/" target="_blank" class="fa-brands fa-instagram"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                  <div class="card-body text-center">
+                    <img src="imgs/maede.jpeg" class="img-fluid">
+                    <h4 class="card-title mb-3">Maede Hajjari</h4>
+                    <p class="card-text">Master's Degree student, DHDK @UniBo. Graduated in .</p>
+                      <ul>
+                        <li>DATA VISUALIZATION</li>
+                        <li>STORYTELLING</li>
+                      </ul>
+                    <a href="https://github.com/Maedeam" target="_blank" class="fa-brands fa-github"></a>
+                    <a href="https://www.facebook.com/me.hajjari" target="_blank" class="fa-brands fa-facebook-f"></a>
+                    <a href="#" target="_blank" class="fa-brands fa-instagram"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                  <div class="card-body text-center">
+                    <img src="imgs/Susanna.jpg" class="img-fluid">
+                    <h4 class="card-title mb-3">Susanna Pinotti</h4>
+                    <p class="card-text">Master's Degree student, DHDK @UniBo. Graduated in Foreign Languages.</p>
+                      <ul>
+                        <li>KNOWLEDGE EXTRACTION</li>
+                        <li>DATA CLEANING</li>
+                        <li>DATA ANALYSIS</li>
+                      </ul>
+                    <a href="https://github.com/SusannaPinotti" target="_blank" class="fa-brands fa-github"></a>
+                    <a href="https://www.facebook.com/susanna.pinotti" target="_blank" class="fa-brands fa-facebook-f"></a>
+                    <a href="https://www.instagram.com/sushita_allegria/" target="_blank" class="fa-brands fa-instagram"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Credit-->
+        <section id="credit" class="p-5">
+          <div class="container-fluid">
+            <div class="col-md">
+              <h2 class="text-center" id="credits">Credits</h2>
+                <p class="text-center">Copyright material available on this website is licensed under a <a id="evidenziatore" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</a> licence unless indicated otherwise</p>
+                <p class="text-center">All primary material on the site is used for educational purposes only; derivative works are the joint property of the authors.</p>
+                <p class="text-center">Data have been collected from  <a id="evidenziatore" href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>, available under <a id="evidenziatore" href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 license</a>.</p>
+            </div>
+          </div>
+        </section>
+    <script src="assets/js/homepage.js"></script>
+    </body>
+    <!--Footer-->
+    <footer class="bg-light text-center text-lg-start">       
+        <div class="text-center p-3" style="background-color:rgba(174,182,238, .5);">
+          ©2022 Copyright:
+          <a class="text-dark" href="#theteam" style="text-decoration: none;">Valentina Cozzi</a>
+        </div>
+</html>
