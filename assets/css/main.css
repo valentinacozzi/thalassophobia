@@ -6,21 +6,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&display=swap');
 
-@font-face {
-  font-family: 'Edition';
-  src: url('assets/css/fonts/EditionRegular.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
 
 @font-face {
-  font-family: 'De Valencia';
-  src: url('assets/css/fonts/DeValencia-Regular.woff') format('woff');
+  font-family: 'Spongeboy Me Bob';
+  src: url('fonts/SpongeboyMeBob.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+
 
 /* HTML */
 body {
@@ -79,7 +73,7 @@ section.landing_page {
 }
 
 .caption h1 {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Spongeboy Me Bob';
   font-size: 4rem;
   font-weight: 900;
   letter-spacing: .2rem;
@@ -117,7 +111,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Spongeboy Me Bob';
   text-transform: uppercase;
   text-align: center;
   font-weight: bold !important;
