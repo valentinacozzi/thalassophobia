@@ -144,7 +144,7 @@ h2 {
 
 
 h3, h4 {
-  font-family: 'Poiret One', cursive;
+  font-family: 'I Still Know';
   font-weight: bold !important;
 }
 
@@ -166,6 +166,20 @@ p {
   text-align: justify;
 }
 
+ul {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.normal_li {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+  }
+  
 .nav-link {
   color:#FFF !important;
 }
@@ -275,4 +289,10 @@ footer {
   text-transform: none !important;
 }
 
+
+
+.sketchfab-embed-wrapper {
+  align-self: center !important;
+  text-align: center;
+}
 
